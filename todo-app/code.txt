@@ -1,0 +1,16 @@
+/seacrhing for the completed todos
+const incomplete = todos.filter(function(todos){
+    return !todos.complete
+})
+
+const left = document.createElement('h2')
+left.textContent = `You have ${incomplete.length} todos left`
+document.querySelector('body').appendChild(left)
+
+//loopint through the array object and print them in the html page
+todos.forEach(function (todos) {
+    const todo = document.createElement('h3')
+    todo.textContent = todos.text
+    document.querySelector('body').appendChild(todo)
+
+})

@@ -1,10 +1,10 @@
 let isGuestOneVegan = false
 let isGuestTwoVegan = false
 
-if (isGuestOneVegan && isGuestTwoVegan ){
+if (isGuestOneVegan && isGuestTwoVegan) {
     console.log('Only offer vegan food')
-}else if (isGuestOneVegan  || isGuestTwoVegan ){
+} else if (isGuestOneVegan || isGuestTwoVegan) {
     console.log('make sure to offer some vegan options')
-}else {
+} else {
     console.log('Offer up anything on the menue')
 }
